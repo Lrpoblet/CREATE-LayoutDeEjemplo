@@ -1,0 +1,57 @@
+.header {
+  background-color: $color-bg;
+
+  &__headboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+    &-title {
+      font-family: $font-title;
+      font-size: 25px;
+      padding-left: 10px;
+    }
+  }
+
+  .nav {
+    background-color: $nav-color;
+
+    &__list {
+      display: flex;
+
+      &-li {
+        padding: 20px;
+        width: 25vw;
+        display: flex;
+        justify-content: center;
+        transition: all 1s ease-in;
+
+        &:hover {
+          background-color: $light-red;
+        }
+      }
+    }
+
+    &__anchor {
+      color: $white;
+    }
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 15px;
+
+    &__headboard-title {
+      font-size: 30px;
+    }
+  }
+
+  .nav {
+    width: 50vw;
+  }
+}

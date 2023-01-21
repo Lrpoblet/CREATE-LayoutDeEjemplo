@@ -142,4 +142,42 @@ a {
   font: 18px "Roboto", sans-serif;
   background-color: #f0f0f0; }
 
+.header {
+  background-color: #ff993e; }
+  .header__headboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; }
+    .header__headboard-title {
+      font-family: "Roboto Slab", serif;
+      font-size: 25px;
+      padding-left: 10px; }
+  .header .nav {
+    background-color: #c0392b; }
+    .header .nav__list {
+      display: flex; }
+      .header .nav__list-li {
+        padding: 20px;
+        width: 25vw;
+        display: flex;
+        justify-content: center;
+        transition: all 1s ease-in; }
+        .header .nav__list-li:hover {
+          background-color: #e74c3c; }
+    .header .nav__anchor {
+      color: #ffffff; }
+
+@media all and (min-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px 15px; }
+    .header__headboard-title {
+      font-size: 30px; }
+
+  .nav {
+    width: 50vw; } }
+
 /*# sourceMappingURL=main.css.map */
