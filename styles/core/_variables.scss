@@ -1,0 +1,23 @@
+$font-title: 'Roboto Slab', serif;
+$font-text: 'Roboto', sans-serif;
+$size: 18px;
+
+// colors
+$orange: #ff993e;
+$light-grey: #f0f0f0;
+$white: #ffffff;
+$dark-green: #325524;
+$light-green: #9ae970;
+$aside-green: #008000;
+$dark-red: #c0392b;
+$light-red: #e74c3c;
+$brown: #874000;
+
+$color-bg: $orange;
+$nav-color: $dark-red;
+$social-nav-color: $brown;
+
+:root {
+  font: $size $font-text;
+  background-color: $light-grey;
+}
