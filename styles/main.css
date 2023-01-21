@@ -131,6 +131,9 @@ table {
   margin: 0;
   padding: 0; }
 
+a {
+  text-decoration: none; }
+
 :root {
   font: 18px "Roboto", sans-serif;
   background-color: #f0f0f0; }
