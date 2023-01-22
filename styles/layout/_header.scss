@@ -23,6 +23,8 @@
 
   .nav {
     background-color: $nav-color;
+    position: absolute;
+    bottom: 0;
 
     &__list {
       display: flex;
@@ -57,6 +59,7 @@
 
     .nav {
       width: 50vw;
+      position: relative;
 
       &__anchor {
         padding: 10px;

@@ -135,11 +135,11 @@ a {
   text-decoration: none; }
 
 :root {
-  font: 16px "Roboto", sans-serif;
+  font: 15px "Roboto", sans-serif;
   background-color: #f0f0f0; }
 
 :root {
-  font: 16px "Roboto", sans-serif;
+  font: 15px "Roboto", sans-serif;
   background-color: #f0f0f0; }
 
 .header {
@@ -159,7 +159,9 @@ a {
       font-size: 23px;
       padding-left: 10px; }
   .header .nav {
-    background-color: #c0392b; }
+    background-color: #c0392b;
+    position: absolute;
+    bottom: 0; }
     .header .nav__list {
       display: flex; }
       .header .nav__list-li {
@@ -182,14 +184,30 @@ a {
     align-items: center;
     padding: 15px 50px; }
     .header .nav {
-      width: 50vw; }
+      width: 50vw;
+      position: relative; }
       .header .nav__anchor {
         padding: 10px; } }
 .main {
   background-color: #ffffff;
-  padding: 15px; }
+  height: 70vh;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
   .main__article-title {
-    font-family: "Roboto Slab", serif; }
+    font: 18px "Roboto Slab", serif;
+    padding: 10px 0; }
+  .main__article-quote {
+    display: flex;
+    justify-content: center; }
+  .main__article-text2 {
+    padding-left: 20px;
+    border-left: solid 4px lightgray;
+    font-size: 15px;
+    width: 80%; }
+  .main .bar {
+    border-bottom: solid black 1px; }
 
 .footer {
   background-color: #ff993e;
