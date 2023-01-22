@@ -151,13 +151,11 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 12px 0 13px; }
+    height: 15vh;
+    padding: 12px 0 40px; }
     .header__headboard-img {
       height: 35px; }
     .header__headboard-title {
-      display: flex;
-      justify-content: center;
-      align-items: center;
       font-family: "Roboto Slab", serif;
       font-size: 23px;
       padding-left: 10px; }
@@ -185,9 +183,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px; }
+    padding: 15px 60px; }
+    .header__headboard {
+      padding: 0; }
     .header .nav {
-      width: 50vw;
+      width: 50%;
       position: relative; }
       .header .nav__anchor {
         padding: 10px; } }

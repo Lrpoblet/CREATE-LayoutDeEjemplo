@@ -6,14 +6,14 @@
 
   &__headboard {
     @include center;
-    padding: 12px 0 13px;
+    height: 15vh;
+    padding: 12px 0 40px;
 
     &-img {
       height: 35px;
     }
 
     &-title {
-      @include center;
       font-family: $font-title;
       font-size: 23px;
       padding-left: 10px;
@@ -49,10 +49,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 50px;
+    padding: 15px 60px;
 
+    &__headboard {
+      padding: 0;
+    }
     .nav {
-      width: 50vw;
+      width: 50%;
       position: relative;
 
       &__anchor {
