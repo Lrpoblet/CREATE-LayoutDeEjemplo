@@ -17,8 +17,7 @@
   }
 
   &__article-div {
-    display: flex;
-    justify-content: center;
+    @include center;
   }
 
   &__article-quote {

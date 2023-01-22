@@ -5,9 +5,7 @@
   top: 0;
 
   &__headboard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include center;
     padding: 12px 0 13px;
 
     &-img {
@@ -15,6 +13,7 @@
     }
 
     &-title {
+      @include center;
       font-family: $font-title;
       font-size: 23px;
       padding-left: 10px;
@@ -30,10 +29,7 @@
       display: flex;
 
       &-li {
-        width: 25vw;
-        display: flex;
-        justify-content: center;
-        transition: all 1s ease-in;
+        @include li;
 
         &:hover {
           background-color: $light-red;
@@ -42,9 +38,7 @@
     }
 
     &__anchor {
-      color: $white;
-      padding: 14px;
-      font-size: 13px;
+      @include anchor;
     }
   }
 }

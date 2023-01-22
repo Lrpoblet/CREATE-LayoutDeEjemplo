@@ -1,8 +1,52 @@
 .footer {
   background-color: $color-bg;
   height: 15vh;
-  //   position: sticky;
-  //   bottom: 0;
+  flex-direction: column;
+  @include center;
+
+  .nav {
+    background-color: $nav-color;
+    width: 80%;
+
+    &__list {
+      display: flex;
+
+      &-li {
+        @include li;
+
+        &:hover {
+          background-color: $light-red;
+        }
+      }
+    }
+
+    &__anchor {
+      @include anchor;
+    }
+  }
+
+  .navSocial {
+    background-color: $social-nav-color;
+    width: 30%;
+
+    &__list {
+      @include center;
+
+      &-li {
+        width: 33.33%;
+        @include center;
+        transition: all 0.5s ease-in;
+
+        &:hover {
+          background-color: rgba(179, 105, 52, 0.973);
+        }
+      }
+    }
+
+    &__anchor {
+      @include anchor;
+    }
+  }
 }
 
 @media all and (min-width: 1024px) {
