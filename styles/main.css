@@ -188,6 +188,11 @@ a {
       position: relative; }
       .header .nav__anchor {
         padding: 10px; } }
+@media all and (min-width: 1024px) {
+  .content {
+    display: flex;
+    margin: 0 5%;
+    height: 80vh; } }
 .main {
   background-color: #ffffff;
   height: 70vh;
@@ -198,17 +203,37 @@ a {
   .main__article-title {
     font: 18px "Roboto Slab", serif;
     padding: 10px 0; }
-  .main__article-quote {
+  .main__article-text, .main__article-quote {
+    margin-bottom: 10px; }
+  .main__article-div {
     display: flex;
     justify-content: center; }
-  .main__article-text2 {
+  .main__article-quote {
     padding-left: 20px;
     border-left: solid 4px lightgray;
     font-size: 15px;
-    width: 80%; }
+    width: 80%;
+    display: inline-flex; }
   .main .bar {
     border-bottom: solid black 1px; }
 
+@media all and (min-width: 1024px) {
+  .main {
+    justify-content: start;
+    width: 70%;
+    height: 80vh; }
+    .main__article-quote {
+      width: 95%; } }
+@media all and (min-width: 1024px) {
+  .aside {
+    background-color: #008000;
+    width: 30%;
+    padding: 20px; }
+    .aside__box {
+      width: 100%;
+      height: 20vh;
+      background-color: #ff993e;
+      margin-bottom: 10px; } }
 .footer {
   background-color: #ff993e;
   height: 15vh; }
