@@ -1,0 +1,12 @@
+.footer {
+  background-color: $color-bg;
+  height: 15vh;
+  //   position: sticky;
+  //   bottom: 0;
+}
+
+@media all and (min-width: 1024px) {
+  .footer {
+    height: 10vh;
+  }
+}
