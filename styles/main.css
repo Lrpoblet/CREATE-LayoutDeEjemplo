@@ -185,11 +185,11 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 60px; }
+    padding: 15px 70px; }
     .header__headboard {
       padding: 0; }
     .header .nav {
-      width: 50%;
+      width: 45%;
       position: relative; }
       .header .nav__anchor {
         padding: 10px; } }
@@ -201,7 +201,7 @@ a {
 .main {
   background-color: #ffffff;
   height: 70vh;
-  padding: 10px 20px;
+  padding: 10px 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
@@ -218,7 +218,7 @@ a {
     padding-left: 20px;
     border-left: solid 4px lightgray;
     font-size: 15px;
-    width: 80%;
+    width: 87%;
     display: inline-flex; }
   .main .bar {
     border-bottom: solid black 1px; }
@@ -226,14 +226,14 @@ a {
 @media all and (min-width: 1024px) {
   .main {
     justify-content: start;
-    width: 70%;
+    width: 75%;
     height: 80vh; }
     .main__article-quote {
       width: 95%; } }
 @media all and (min-width: 1024px) {
   .aside {
     background-color: #008000;
-    width: 30%;
+    width: 25%;
     padding: 20px; }
     .aside__box {
       width: 100%;
