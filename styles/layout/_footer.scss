@@ -53,5 +53,24 @@
 @media all and (min-width: 1024px) {
   .footer {
     height: 10vh;
+    flex-direction: row;
+    padding: 15px 70px;
+    justify-content: space-between;
+
+    .nav {
+      width: fit-content;
+
+      &__list-li {
+        width: fit-content;
+      }
+    }
+
+    .navSocial {
+      width: fit-content;
+    }
+
+    &__list-li {
+      width: fit-content;
+    }
   }
 }

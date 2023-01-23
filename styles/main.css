@@ -207,7 +207,7 @@ a {
   justify-content: space-around; }
   .main__article-title {
     font: 18px "Roboto Slab", serif;
-    padding: 10px 0; }
+    padding-bottom: 10px; }
   .main__article-text, .main__article-quote {
     margin-bottom: 10px; }
   .main__article-div {
@@ -290,6 +290,17 @@ a {
 
 @media all and (min-width: 1024px) {
   .footer {
-    height: 10vh; } }
+    height: 10vh;
+    flex-direction: row;
+    padding: 15px 70px;
+    justify-content: space-between; }
+    .footer .nav {
+      width: fit-content; }
+      .footer .nav__list-li {
+        width: fit-content; }
+    .footer .navSocial {
+      width: fit-content; }
+    .footer__list-li {
+      width: fit-content; } }
 
 /*# sourceMappingURL=main.css.map */
