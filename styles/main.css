@@ -250,7 +250,7 @@ a {
   .main .bar {
     border-bottom: solid black 1px; }
 
-@media all and (min-width: 600px) and (max-width: 1023px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .main {
     flex-direction: row;
     height: 40vh;
@@ -266,7 +266,7 @@ a {
     height: 80vh; }
     .main__article-quote {
       width: 95%; } }
-@media all and (min-width: 600px) and (max-width: 1023px) {
+@media all and (min-width: 768px) and (max-width: 1023px) {
   .aside {
     background-color: #008000;
     height: 30vh;
@@ -337,7 +337,7 @@ a {
       text-align: center;
       text-transform: uppercase; }
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 768px) {
   .footer {
     flex-direction: row;
     padding: 15px 70px;
