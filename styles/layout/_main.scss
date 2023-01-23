@@ -1,14 +1,14 @@
 .main {
   background-color: $white;
   height: 70vh;
-  padding: 10px 15px;
+  padding: 0 15px 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 
   &__article-title {
     font: 18px $font-title;
-    padding-bottom: 10px;
+    padding: 10px 0;
   }
 
   &__article-text,

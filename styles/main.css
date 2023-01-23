@@ -201,13 +201,13 @@ a {
 .main {
   background-color: #ffffff;
   height: 70vh;
-  padding: 10px 15px;
+  padding: 0 15px 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
   .main__article-title {
     font: 18px "Roboto Slab", serif;
-    padding-bottom: 10px; }
+    padding: 10px 0; }
   .main__article-text, .main__article-quote {
     margin-bottom: 10px; }
   .main__article-div {
