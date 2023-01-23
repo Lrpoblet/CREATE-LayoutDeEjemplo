@@ -142,6 +142,24 @@ a {
   font: 15px "Roboto", sans-serif;
   background-color: #f0f0f0; }
 
+@-webkit-keyframes buzz {
+  50% {
+    -ms-transform: translateX(3px) rotate(2deg);
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  100% {
+    -ms-transform: translateX(-3px) rotate(-2deg);
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); } }
+@keyframes buzz {
+  50% {
+    -ms-transform: translateX(3px) rotate(2deg);
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  100% {
+    -ms-transform: translateX(-3px) rotate(-2deg);
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); } }
 .header {
   background-color: #ff993e;
   height: 15vh;
@@ -155,6 +173,15 @@ a {
     padding: 12px 0 40px; }
     .header__headboard-img {
       height: 35px; }
+      .header__headboard-img:hover, .header__headboard-img:focus, .header__headboard-img:active {
+        -webkit-animation-name: buzz;
+        animation-name: buzz;
+        -webkit-animation-duration: 0.15s;
+        animation-duration: 0.15s;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite; }
     .header__headboard-title {
       font-family: "Roboto Slab", serif;
       font-size: 23px;
