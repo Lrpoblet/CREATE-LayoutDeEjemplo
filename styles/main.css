@@ -175,7 +175,9 @@ a {
     .header .nav__anchor {
       color: #ffffff;
       padding: 10px;
-      font-size: 12px; }
+      font-size: 12px;
+      width: 100%;
+      text-align: center; }
 
 @media all and (min-width: 1024px) {
   .header {
@@ -260,7 +262,9 @@ a {
     .footer .nav__anchor {
       color: #ffffff;
       padding: 10px;
-      font-size: 12px; }
+      font-size: 12px;
+      width: 100%;
+      text-align: center; }
   .footer .navSocial {
     background-color: #874000;
     width: 30%; }
@@ -269,7 +273,7 @@ a {
       justify-content: center;
       align-items: center; }
       .footer .navSocial__list-li {
-        width: 33.33%;
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -279,7 +283,10 @@ a {
     .footer .navSocial__anchor {
       color: #ffffff;
       padding: 10px;
-      font-size: 12px; }
+      font-size: 12px;
+      width: 100%;
+      text-align: center;
+      text-transform: uppercase; }
 
 @media all and (min-width: 1024px) {
   .footer {

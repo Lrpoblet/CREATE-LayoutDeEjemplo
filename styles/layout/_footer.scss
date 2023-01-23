@@ -33,7 +33,7 @@
       @include center;
 
       &-li {
-        width: 33.33%;
+        width: 100%;
         @include center;
         transition: all 0.5s ease-in;
 
@@ -45,6 +45,7 @@
 
     &__anchor {
       @include anchor;
+      text-transform: uppercase;
     }
   }
 }
