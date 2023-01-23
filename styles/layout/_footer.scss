@@ -50,9 +50,8 @@
   }
 }
 
-@media all and (min-width: 1024px) {
+@media all and (min-width: 600px) {
   .footer {
-    height: 10vh;
     flex-direction: row;
     padding: 15px 70px;
     justify-content: space-between;
@@ -72,5 +71,11 @@
     &__list-li {
       width: fit-content;
     }
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .footer {
+    height: 10vh;
   }
 }

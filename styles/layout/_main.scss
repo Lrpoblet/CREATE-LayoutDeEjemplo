@@ -33,6 +33,18 @@
   }
 }
 
+@media all and (min-width: 600px) and (max-width: 1023px) {
+  .main {
+    flex-direction: row;
+    height: 40vh;
+    @include center;
+
+    &__article {
+      margin: 10px;
+    }
+  }
+}
+
 @media all and (min-width: 1024px) {
   .main {
     justify-content: start;
